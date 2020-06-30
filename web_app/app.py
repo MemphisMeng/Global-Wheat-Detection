@@ -131,8 +131,8 @@ if __name__ == "__main__":
         for box in boxes:
             x1, y1, x2, y2 = box
             sample = cv2.rectangle(img=sample,
-                          pt1=(y1, x1),
-                          pt2=(y2, x2),
+                          pt1=(x1, y1),
+                          pt2=(x2, y2),
                           color=(0, 0, 255), thickness=3)
         ax.set_axis_off()
         st.image(cv2.UMat.get(sample), clamp=True)
