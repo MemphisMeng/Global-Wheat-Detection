@@ -119,7 +119,6 @@ if __name__ == "__main__":
                         'Detected Boxes': "{} {} {} {}".format(j[0][0], j[0][1], j[0][2], j[0][3]),
                         'Confidence%': j[1]
                     }
-
                     results.append(result)
 
     if len(results) != 0:
@@ -131,14 +130,12 @@ if __name__ == "__main__":
         fig, ax = plt.subplots(1, 1, figsize=(32, 16))
         for box in boxes:
             x1, y1, x2, y2 = box
-            cv2.rectangle(img=sample,
-                          pt1=(x1, y1),
-                          pt2=(x2, y2),
+            sample = cv2.rectangle(img=sample,
+                          pt1=(y1, x1),
+                          pt2=(y2, x2),
                           color=(0, 0, 255), thickness=3)
-
         ax.set_axis_off()
-        im = ax.imshow(sample)
-        st.pyplot()
+        st.image(cv2.UMat.get(sample), clamp=True)
         st.write("# Results")
         st.dataframe(pd.DataFrame(results))
     else:
