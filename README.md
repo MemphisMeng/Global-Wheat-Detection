@@ -22,5 +22,7 @@ As the figure shows, the overall disitrbution is almost the same as the one in o
 <h2 id="ensemble-learning">Ensemble Learning</h2>
 <p>After obtaing all the models trained from the previous steps, the final step is to ensemble them together and use the combined modelt to test on our test set. Our score is approximately 0.74 (top 10%).</p>
 <h2 id="web-application">Web Application</h2>
-<p>Our work has been deployed on cloud, feel free to have fun with it! (<a href="https://github.com/MemphisMeng/global-wheat-detection-web-app">https://github.com/MemphisMeng/global-wheat-detection-web-app</a>)</p>
+<p>Our work has been deployed on cloud, feel free to have fun with it! (<a href="https://github.com/MemphisMeng/global-wheat-detection-web-app">https://github.com/MemphisMeng/global-wheat-detection-web-app</a>)<br>
+Brief video:<br>
+<img src="https://github.com/MemphisMeng/Global-Wheat-Detection/blob/master/video/zoom_0.mp4" alt="enter image description here"></p>
 
