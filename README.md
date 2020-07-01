@@ -24,5 +24,5 @@ As the figure shows, the overall disitrbution is almost the same as the one in o
 <h2 id="web-application">Web Application</h2>
 <p>Our work has been deployed on cloud, feel free to have fun with it! (<a href="https://github.com/MemphisMeng/global-wheat-detection-web-app">https://github.com/MemphisMeng/global-wheat-detection-web-app</a>)<br>
 Brief video:<br>
-<img src="https://github.com/MemphisMeng/Global-Wheat-Detection/blob/master/video/zoom_0.mp4" alt="enter image description here"></p>
+<img src="https://github.com/MemphisMeng/Global-Wheat-Detection/blob/master/video/explanation.gif" alt="enter image description here"></p>
 
